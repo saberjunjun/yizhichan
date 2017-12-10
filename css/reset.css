@@ -1,0 +1,136 @@
+/*-------重置格式化 CSS------*/
+
+@charset "utf-8";
+
+/* 清除内外边距 */
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 重置默认字体 */
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: #666;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*去掉列表默认样式*/
+
+ol, ul {
+    list-style: none;
+}
+
+
+/*去掉手机端元素被点击时产生的边框*/
+
+a, button, input, textarea {
+    /*-webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
+    /*-webkit-user-modify:read-write-plaintext-only;*/
+    /*-webkit-appearance: none;*/
+}
+
+input,button,select {
+    border:none;
+}
+
+input:focus,button:focus,select:focus {
+    outline:none;
+}
+
+img {
+    vertical-align: top;
+    border: 0 none;
+}
+
+
+/*图片去边框并居中*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+
+/*定义链接、已访问过的链接、鼠标停在上方时、点下鼠标时"的样式。*/
+
+/*a:link, a:visited {
+    text-decoration: none;
+}*/
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+/*弹性盒子样式兼容*/
+
+.flex {
+    display: flex;
+    /*兼容UC*/
+    display: -webkit-flex;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    /* 触发 hasLayout */
+    zoom: 1;
+}
+
+/*右浮动*/
+
+.pull-right {
+    float: right;
+}
+
+
+/*左浮动*/
+
+.pull-left {
+    float: left;
+}
+
+.flex-1 {
+    flex: 1;
+    /*兼容UC*/
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+    /*兼容UC*/
+    -webkit-box-flex: 2;
+    -moz-box-flex: 2;
+    -ms-flex: 2;
+}
+
+.nowrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

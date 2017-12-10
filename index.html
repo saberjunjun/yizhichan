@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>一指禅</title>
+        <link rel="stylesheet" href="swiper/swiper-3.4.2.min.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="icon/iconfont.css">
+        <style type="text/css">
+        .pagination-lunbo {
+            position: absolute;
+            z-index: 20;
+            text-align: center;
+        }
+
+        .pagination-lunbo .swiper-pagination-bullets {
+            left:-90px;
+        }
+
+        .pagination-lunbo .swiper-pagination-bullet {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 15px;
+            background-color: #555;
+            margin: 0 5px;
+            opacity: 0.8;
+            border: 1px solid #fff;
+            cursor: pointer;
+        }
+
+        .pagination-lunbo .swiper-pagination-bullet-active {
+            background: #fff;
+        }
+
+        .pagination-brand,.pagination-patent {
+            position: absolute;
+            top:215px;
+            z-index: 20;
+            text-align: center;
+        }
+
+        .pagination-brand .swiper-pagination-bullet, .pagination-patent .swiper-pagination-bullet{
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 12px;
+            background-color: #555;
+            margin: 0 2px!important;
+            opacity: 0.8;
+            border: 1px solid #fff;
+            cursor: pointer;
+        }
+
+        .pagination-brand .swiper-pagination-bullet-active, .pagination-patent .swiper-pagination-bullet-active{
+            background-color: #bd3838;
+        }
+        </style>
+    </head>
+    <body>
+    <!-- 顶部 -->
+    <div id="header">
+        <div class="header-content clearfix">
+            <div class="header-title">
+                <span><i class="iconfont icon-anquanbaozhang"></i>安全保障</span><p>交易损失，全额100%赔付</p>  
+            </div>
+            <div class="header-bar">
+                您好，请<a href="javasrcipt:;" class="header-bar-login" style="padding:0 5px;">登录</a>
+                <a href="javasrcipt:;" class="header-bar-register">免费注册</a>|
+                <a href="">出售者平台</a>|
+                <a href="">数据共享</a>|
+                <a href="">商标报价单工具</a>|
+                <a href="">商标安全监测</a>|
+                <a href="">移动版</a>|
+                <div class="header-lititle-bar">
+                    <a href="">
+                        网站导航&nbsp;<i class="iconfont icon-unfold"></i>
+                    </a>
+                    <ul>
+                        <li><a href="">关于一指禅</a></li>
+                        <li><a href="">新闻资讯</a></li>
+                        <li><a href="">帮助中心</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- logo -->
+    <div id="logo" class="clearfix">
+        <div class="pull-left">
+            <img src="picture/logo.png" alt="logo"/>
+        </div>
+        <div style="margin-left:80px;margin-top:20px;" class="pull-left">
+            <div class="logo-search-bar clearfix">
+                <div class="pull-left clearfix">
+                    <span class="pull-left">搜商标</span>
+                    <i class="iconfont icon-unfold pull-right"></i>
+                </div>
+                <p>搜专利</p>
+                <input type="text" class="pull-left" placeholder="输入你想买的商标名称/商标号/适用服务"/>
+                <button type="button" class="pull-left"><i class="iconfont icon-sousuo"></i></button>
+            </div>
+            <div class="logo-title clearfix">
+                <div class="pull-left">
+                    <a style="color:#ff6666;padding-left:0;" href="">服装</a>
+                    <a href="">童装</a>
+                    <a style="color:#ff6666;" href="">买一送一</a>
+                    <a href="">箱包</a>
+                    <a href="">化妆品</a>
+                    <a href="">3C数码</a>
+                    <a href="">茶叶</a>
+                    <a style="color:#ff6666;" href="">餐饮住宿</a>
+                </div>
+                <div class="pull-right">
+                    <i class="iconfont icon-wenhao"></i><a href="" style="text-decoration: underline;padding-left:2px;">商标45类注释</a>
+                </div>
+            </div>
+        </div>
+        <div class="logo-tel pull-right">
+            <a href="">4006-762-003</a>
+            <a href="">|</a>
+            <a href="">&nbsp;
+                <span>
+                    <img src="picture/yzc-wx.jpg" alt=""/>
+                    <span>专注知识产权流转<br/>欢迎关注微信，随时获取资讯</span>
+                </span>
+            </a>
+            <a href="">|</a>
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=603432176&site=qq&menu=yes" target="_blank">&nbsp;</a>
+            <a href="" class="logo-tel-sel"><span>我要出售</span></a>
+        </div>
+    </div>
+    <!-- 菜单 -->
+    <div id="menu">
+        <ul>
+            <li class="menu-top">
+                <a href="javasrcipt::"><i class="iconfont icon-fenlei"></i><span>全部商标分类</span></a>
+                <ol class="menu-top-content">
+                    <li>
+                        <span>服装/鞋帽/箱包<i class="iconfont icon-enter"></i></span>
+                        <div class="third-menu clearfix">
+                            <div class="third-menu-content">
+                                <dl class="clearfix">
+                                    <dt>衣服</dt>
+                                    <dd>
+                                        <a href="">男装/女装</a>
+                                        <a href="">童装</a>
+                                        <a href="">裤子</a>
+                                        <a href="">羽绒服装</a>
+                                        <a href="">裙子</a>
+                                        <a href="">大衣</a>
+                                        <a href="">皮衣</a>
+                                        <a href="">婚纱</a>
+                                        <a href="">毛衣</a>
+                                        <a href="">夹克</a>
+                                        <a href="">衬衫</a>
+                                    </dd>
+                                </dl>
+                                <dl class="clearfix">
+                                    <dt>内衣</dt>
+                                    <dd>
+                                        <a href="">内衣</a>
+                                        <a href="">文胸</a>
+                                        <a href="">内裤</a>
+                                        <a href="">睡衣裤</a>
+                                    </dd>
+                                </dl>
+                                <dl class="clearfix">
+                                    <dt>鞋靴</dt>
+                                    <dd>
+                                        <a href="">运动鞋</a>
+                                        <a href="">凉鞋</a>
+                                        <a href="">拖鞋</a>
+                                        <a href="">雨鞋</a>
+                                        <a href="">靴</a>
+                                    </dd>
+                                </dl>
+                                <dl class="clearfix">
+                                    <dt>配件</dt>
+                                    <dd>
+                                        <a href="">帽</a>
+                                        <a href="">帽子</a>
+                                        <a href="">手套</a>
+                                        <a href="">围巾</a>
+                                        <a href="">披肩</a>
+                                        <a href="">腰带</a>
+                                        <a href="">帽子</a>
+                                        <a href="">皮带（服饰用）</a>
+                                        <a href="">袜子</a>
+                                        <a href="">眼镜及配件</a>
+                                        <a href="">儿童头盔</a>
+                                        <a href="">礼帽</a>
+                                        <a href="">耳套</a>
+                                        <a href="">滑雪手套</a>
+                                        <a href="">领带</a>
+                                    </dd>
+                                </dl>
+                                <dl class="clearfix">
+                                    <dt>箱包</dt>
+                                    <dd>
+                                        <a href="">背包</a>
+                                        <a href="">手提包</a>
+                                        <a href="">包</a>
+                                        <a href="">女士钱包</a>
+                                        <a href="">书包</a>
+                                        <a href="">旅行箱</a>
+                                        <a href="">行李箱</a>
+                                        <a href="">名片夹</a>
+                                        <a href="">钱包（钱夹）</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="third-menu-img">
+                                <img src="images/697bc576952e97cec3afe8b8347d5658.jpg" alt=""/>
+                                <img src="images/09d3c99682ed35fd963adbc4f8e3f28b.jpg" alt=""/>
+                                <img src="images/b41326530be248dfa314f8172b808321.jpg" alt=""/>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>钟表/珠宝/饰品<i class="iconfont icon-enter"></i></span>
+                        <div class="third-menu clearfix">
+                            <div class="third-menu-content">
+                                <dl class="clearfix">
+                                    <dt>钟/表</dt>
+                                    <dd>
+                                        <a href="">钟</a>
+                                        <a href="">手表</a>
+                                        <a href="">表</a>
+                                        <a href="">秒表</a>
+                                        <a href="">表带</a>
+                                    </dd>
+                                </dl>
+                                <dl class="clearfix">
+                                    <dt>乐器</dt>
+                                    <dd>
+                                        <a href="">乐器</a>
+                                        <a href="">乐器辅助用品及配件</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="third-menu-img">
+                                <img src="images/5e81ce24feb0747a46a5cdb4ca3b4f52.jpg" alt=""/>
+                                <img src="images/0605dc47dcbbe623d51a04efec86bbfc.jpg" alt=""/>
+                                <img src="images/8adb02734b8a937effb9c7e652f80593.jpg" alt=""/>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>婴童/玩具/健身/车<i class="iconfont icon-enter"></i></span>
+                        <div class="third-menu clearfix">
+                            <div class="third-menu-content">
+                                <dl class="clearfix">
+                                    <dt>玩具</dt>
+                                    <dd>
+                                        <a href="">婴童</a>
+                                        <a href="">玩具</a>
+                                        <a href="">健身</a>
+                                        <a href="">车</a>
+                                    </dd>
+                                </dl>                               
+                            </div>
+                            <div class="third-menu-img">
+                                <img src="images/781db2c20222cc3038079723d59ce606.jpg" alt=""/>
+                                <img src="images/9ce361c2f7e8a3bcf73c6ac7d4c4c21d.jpg" alt=""/>
+                                <img src="images/9c3e08708a4c983fc2fe8a8e063e91ea.jpg" alt=""/>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>美妆/日用品<i class="iconfont icon-enter"></i></span>
+                        <div class="third-menu clearfix">
+                            <div class="third-menu-content">
+                                <dl class="clearfix">
+                                    <dt>美妆</dt>
+                                    <dd>
+                                        <a href="">美妆</a>
+                                        <a href="">日用品</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="third-menu-img">
+                                <img src="images/cc8d2fcaf0ed5c57616abb202f8b3c70.png" alt=""/>
+                                <img src="images/8fd8643a3d22ffda3d3977d5cc453c33.jpg" alt=""/>
+                                <img src="images/f05faabc2292c35ff48961a5cd7dc894.jpg" alt=""/>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>食品/烟/酒/茶<i class="iconfont icon-enter"></i></span>
+                        <div class="third-menu clearfix">
+                            <div class="third-menu-content">
+                                <dl class="clearfix">
+                                    <dt>食品</dt>
+                                    <dd>
+                                        <a href="">食品</a>
+                                        <a href="">烟</a>
+                                        <a href="">酒</a>
+                                        <a href="">茶</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="third-menu-img">
+                                <img src="images/79decaf6aa72a4e319376f71e93b2765.jpg" alt=""/>
+                                <img src="images/b71c314181421dff5888944056f7c7a6.jpg" alt=""/>
+                                <img src="images/3c531e1e8e16bccd77e413ec944d044a.jpg" alt=""/>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>药/保健品<i class="iconfont icon-enter"></i></span>
+                        <div class="third-menu clearfix">
+                            <div class="third-menu-content">
+                                <dl class="clearfix">
+                                    <dt>药</dt>
+                                    <dd>
+                                        <a href="">药</a>
+                                        <a href="">保健品</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="third-menu-img">
+                                <img src="images/1a0c0c4b8f31dc83226aeb5c6656b655.jpg" alt=""/>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>家用电器/家居<i class="iconfont icon-enter"></i></span>
+                        <div class="third-menu clearfix">
+                            <div class="third-menu-content">
+                                <dl class="clearfix">
+                                    <dt>家居</dt>
+                                    <dd>
+                                        <a href="">家用电器</a>
+                                        <a href="">家居</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="third-menu-img">
+                                <img src="images/6fec5f0619dbba99ebde50086b433259.jpg" alt=""/>
+                                <img src="images/7e19cc757ed990c4856c672c797a6115.jpg" alt=""/>
+                                <img src="images/c244f7bc66d8940342b166dc0312aef8.jpg" alt=""/>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>电子产品/软件开发<i class="iconfont icon-enter"></i></span>
+                        <div class="third-menu clearfix">
+                            <div class="third-menu-content">
+                                <dl class="clearfix">
+                                    <dt>电子产品</dt>
+                                    <dd>
+                                        <a href="">电子产品</a>
+                                        <a href="">软件开发</a>
+                                    </dd>
+                                </dl>                                                           
+                            </div>
+                            <div class="third-menu-img">
+                                <img src="images/946b298f104a01d5e7832c919cf95222.jpg" alt=""/>
+                                <img src="images/85d22a61e3d02e9dedc7449d47ec6c4a.jpg" alt=""/>
+                                <img src="images/44ff523d2efdec45ce245d794fc61b3c.jpg" alt=""/>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>广告/推销/金融<i class="iconfont icon-enter"></i></span>
+                        <div class="third-menu clearfix">
+                            <div class="third-menu-content">
+                                <dl class="clearfix">
+                                    <dt>广告</dt>
+                                    <dd>
+                                        <a href="">广告</a>
+                                        <a href="">推销</a>
+                                        <a href="">金融</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="third-menu-img">
+                                <img src="images/f352ce20e2476f3edbfadbd8d8780210.jpg" alt=""/>
+                                <img src="images/9b31c776d0a6b7428a29028da7f903f2.jpg" alt=""/>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>餐饮住宿/运输<i class="iconfont icon-enter"></i></span>
+                        <div class="third-menu clearfix">
+                            <div class="third-menu-content">
+                                <dl class="clearfix">
+                                    <dt>餐饮住宿</dt>
+                                    <dd>
+                                        <a href="">餐饮住宿</a>
+                                        <a href="">运输</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="third-menu-img">
+                                <img src="images/a63a13c3a34818bbdafe9db8561fdd26.jpg" alt=""/>
+                                <img src="images/c0b024590dda316b6306a06ea3f9bb09.jpg" alt=""/>
+                                <img src="images/af08af7a01f2819d9d2edd34bc1bc9bf.jpg" alt=""/>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>教育/娱乐<i class="iconfont icon-enter"></i></span>
+                        <div class="third-menu clearfix">
+                            <div class="third-menu-content">
+                                <dl class="clearfix">
+                                    <dt>教育</dt>
+                                    <dd>
+                                        <a href="">教育</a>
+                                        <a href="">娱乐</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="third-menu-img">
+                                <img src="images/cf517c2eb5f242631aff8d3b19bd8d17.jpg" alt=""/>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>医疗/美容/私人服务<i class="iconfont icon-enter"></i></span>
+                        <div class="third-menu clearfix">
+                            <div class="third-menu-content">
+                                <dl class="clearfix">
+                                    <dt>医疗</dt>
+                                    <dd>
+                                        <a href="">医疗</a>
+                                        <a href="">美容</a>
+                                        <a href="">私人服务</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="third-menu-img">
+                                <img src="images/881a6b02cae3936a0d5ccfe6f397cd57.jpg" alt=""/>
+                            </div>
+                        </div>
+                    </li>
+                </ol>
+            </li>
+            <li><a style="color:#ff6666" href="">首页</a></li>
+            <li><a href="">特价商标</a><i class="iconfont icon-hot"></i></li>
+            <li><a href="">商标购买</a></li>
+            <li><a href="">专利购买</a></li>
+            <li><a href="">专题活动</a><i class="iconfont icon-new"></i></li>
+            <li><a href="">商标注册</a></li>
+            <li><a href="">专利注册</a></li>
+        </ul>
+        <!-- 轮播图 -->
+        <div class="lunbo">
+            <div class="swiper-container swiper-container-lunbo">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide swiper-slide1"></div>
+                  <div class="swiper-slide swiper-slide2"></div>
+                  <div class="swiper-slide swiper-slide3"></div>
+                  <div class="swiper-slide swiper-slide4"></div>
+              </div>
+              <div class="pagination pagination-lunbo"></div>
+            </div>
+            <!-- 登录框 -->
+            <div id="login">
+                <div class="login">
+                    <h1>
+                        <span style="padding-left:15px;"></span>
+                        购买商标快捷登记
+                        <span style="padding-left:15px;"></span>
+                    </h1>
+                    <h2>线下专家10分钟为你快速匹配商标</h2>
+                    <div style="padding:0 15px;">
+                        <div class="login-desc">
+                            |<input type="text" placeholder="对商标的特殊要求 如：25类鞋子"/>
+                        </div>
+                        <div class="login-number clearfix">
+                            <div class="pull-left">
+                                |<input id="login-number" type="text" placeholder="留下电话方便卖家联系你"/>
+                            </div>
+                            <input id="login-name" type="text" placeholder="姓氏" class="pull-right"/>
+                        </div>
+                        <button>立即登记<i></i></button>
+                        <h3>我们将严格保密您的个人信息</h3>
+                        <div class="login-scroll-title">最新求购需求</div>
+                        <div class="login-scroll">
+                            <div>
+                                <ul>
+                                    <li class="clearfix">
+                                        <span class="login-scroll-number">1810124***9</span>
+                                        <span class="login-scroll-content">20类家具商标，欧美范儿</span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <span class="login-scroll-number">1860635***0</span>
+                                        <span class="login-scroll-content">11类商标，价格便宜一些的</span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <span class="login-scroll-number">1500472***2</span>
+                                        <span class="login-scroll-content">求购3类化妆品商标，能传达自然、天、月</span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <span class="login-scroll-number">1380422***2</span>
+                                        <span class="login-scroll-content">可做服务场所使用的43类商标</span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <span class="login-scroll-number">1490232***2</span>
+                                        <span class="login-scroll-content">求购30类可做零食、饮料的商标</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 查看商品 -->
+    <div id="check-goods" class="clearfix">
+        <a href="" class="clearfix">
+            <div class="check-goods-desc pull-left">
+                <h1>家电入住电商</h1>
+                <h2>这些标堪比“九阳”</h2>
+                <div>查看</div>
+            </div>
+            <div class="check-goods-img pull-right">
+                <img src="picture/de0cd00446609491373aada199e83730.jpg" alt=""/>
+            </div>
+        </a>
+        <a href="" class="clearfix">
+            <div class="check-goods-desc pull-left">
+                <h1>商标这么耳熟</h1>
+                <h2>谁信你初出茅庐</h2>
+                <div>查看</div>
+            </div>
+            <div class="check-goods-img pull-right">
+                <img src="picture/c9c265f77dd23c8bb9c2d4019bc0011f.jpg" alt=""/>
+            </div>
+        </a>
+        <a href="" class="clearfix">
+            <div class="check-goods-desc pull-left">
+                <h1>更好更实惠</h1>
+                <h2>中国制造也不赖</h2>
+                <div>查看</div>
+            </div>
+            <div class="check-goods-img pull-right">
+                <img src="picture/4745d2f56413ac07484016eae00aaf98.jpg" alt=""/>
+            </div>
+        </a>
+        <a href="" class="clearfix">
+            <div class="check-goods-desc pull-left">
+                <h1>今天买明天用</h1>
+                <h2>贴牌提升附加值</h2>
+                <div>查看</div>
+            </div>
+            <div class="check-goods-img pull-right">
+                <img src="picture/7979bae8fe7921059b56efe70c821f6a.jpg" alt=""/>
+            </div>
+        </a>
+        <a href="" class="clearfix">
+            <div class="check-goods-desc pull-left">
+                <h1>讲真！</h1>
+                <h2>好听好记才是硬道理</h2>
+                <div>查看</div>
+            </div>
+            <div class="check-goods-img pull-right">
+                <img src="picture/b94aaaebcf3e32641f97e4527b1c3f61.jpg" alt=""/>
+            </div>
+        </a>
+    </div>
+    <hr/>
+    <!-- 新手 -->
+    <div id="newer"></div>
+    <!-- 列表 -->
+    <div id="list">
+        <div class="list">
+            <ul class="clearfix">
+                <li><i class="iconfont icon-people_fill"></i><a href="" class="red">01-化工原料</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">02-油漆涂料</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="" class="red">03-化妆日化</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">04-燃料油脂</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="" class="red">05-医药</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="" class="red">06-五金金属</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">07-机械电动</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">08-手工器械</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="" class="red">09-科学仪器</a></li>
+            </ul>
+            <ul class="clearfix">
+                <li><i class="iconfont icon-people_fill"></i><a href="">10-医疗器械</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="" class="red">11-家用电器</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">12-运输工具</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">13-军火烟火</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="" class="red">14-珠宝钟表</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">15-乐器</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">16-办公用品</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">17-橡胶制品</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="" class="red">18-皮革皮具</a></li>
+            </ul>
+            <ul class="clearfix">
+                <li><i class="iconfont icon-people_fill"></i><a href="">19-建筑材料</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">20-家具</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">21-洁具厨房</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">22-绳网袋蓬</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">23-纺织纱线</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">24-布料床单</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="" class="red">25-服装鞋帽</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">26-纽扣拉链</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">27-地毯席垫</a></li>
+            </ul>
+            <ul class="clearfix">
+                <li><i class="iconfont icon-people_fill"></i><a href="">28-健身器材</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="" class="red">29-食品</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="" class="red">30-方便食品</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">31-饲料种籽</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="" class="red">32-啤酒饮料</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="" class="red">33-酒</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">34-烟草家具</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="" class="red">35-广告销售</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">36-金融物管</a></li>
+            </ul>
+            <ul class="clearfix">
+                <li><i class="iconfont icon-people_fill"></i><a href="">37-建筑修理</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">38-通讯传媒</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">39-运输旅行</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">40-材料加工</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="" class="red">41-教育娱乐</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">42-科学服务</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="" class="red">43-餐饮住宿</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">44-医疗园艺</a></li>
+                <li><i class="iconfont icon-people_fill"></i><a href="">45-社会服务</a></li>
+            </ul>
+        </div>
+        <div class="list-all"><p><span>全部分类</span><i class="iconfont icon-unfold"></i></p></div>
+    </div>
+    <!-- 精选商标交易 -->
+    <div id="brand" class="contain">
+        <div class="brand-title clearfix">
+            <h1>精选商标交易</h1>
+            <ul class="clearfix">
+                <li><a href="" class="brand-title-border">服装鞋帽</a></li>
+                <li><a href="">化妆清洁</a></li>
+                <li><a href="">电子数码</a></li>
+                <li><a href="">餐饮住宿</a></li>
+                <li><a href="">食品</a></li>
+            </ul>
+        </div>
+        <div class="clearfix" style="height:353px;">
+            <div class="brand-swiper">
+                <div class="swiper-container swiper-container-patent">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="images/d1af12150e46d358b1fc00c10342cc5e.jpg" alt=""/></div>
+                      <div class="swiper-slide"><img src="images/f7a3b955a0df0c437620c4662d501516.jpg" alt=""/></div>
+                      <div class="swiper-slide"><img src="images/5c1ce03daa10fad5ec8101ba998a14d9.jpg" alt=""/></div>
+                  </div>
+                  <div class="pagination pagination-patent"></div>
+                </div>
+                <div class="brand-list">
+                    <ul class="clearfix">
+                        <li>>&nbsp;<a href="">服装</a></li>
+                        <li>>&nbsp;<a href="">箱包</a></li>
+                        <li>>&nbsp;<a href="">化妆品</a></li>
+                        <li>>&nbsp;<a href="">家纺</a></li>
+                        <li>>&nbsp;<a href="">电子</a></li>
+                        <li>>&nbsp;<a href="">小家电</a></li>
+                        <li>>&nbsp;<a href="">餐饮</a></li>
+                        <li>>&nbsp;<a href="">生鲜</a></li>
+                        <li>>&nbsp;<a href="">保健品</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="brand-img">
+                <ul class="clearfix">
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/4e063b40ffefe3962e177b7afcc53031.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/4e063b40ffefe3962e177b7afcc53031.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/4e063b40ffefe3962e177b7afcc53031.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/4e063b40ffefe3962e177b7afcc53031.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/4e063b40ffefe3962e177b7afcc53031.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/4e063b40ffefe3962e177b7afcc53031.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/4e063b40ffefe3962e177b7afcc53031.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/4e063b40ffefe3962e177b7afcc53031.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                </ul>
+                <ul style="display:none" class="clearfix">
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/f352ce20e2476f3edbfadbd8d8780210.jpg"  alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/f352ce20e2476f3edbfadbd8d8780210.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/f352ce20e2476f3edbfadbd8d8780210.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/f352ce20e2476f3edbfadbd8d8780210.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/f352ce20e2476f3edbfadbd8d8780210.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/f352ce20e2476f3edbfadbd8d8780210.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/f352ce20e2476f3edbfadbd8d8780210.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/f352ce20e2476f3edbfadbd8d8780210.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                </ul>
+                <ul style="display:none" class="clearfix">
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/d47c62154bed7961b9c77e17c23d8774.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/d47c62154bed7961b9c77e17c23d8774.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/d47c62154bed7961b9c77e17c23d8774.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/d47c62154bed7961b9c77e17c23d8774.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/d47c62154bed7961b9c77e17c23d8774.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/d47c62154bed7961b9c77e17c23d8774.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/d47c62154bed7961b9c77e17c23d8774.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/d47c62154bed7961b9c77e17c23d8774.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                </ul>
+                <ul style="display:none" class="clearfix">
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/e575e4b083d929d354784e1c965c8000.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/e575e4b083d929d354784e1c965c8000.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/e575e4b083d929d354784e1c965c8000.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/e575e4b083d929d354784e1c965c8000.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/e575e4b083d929d354784e1c965c8000.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/e575e4b083d929d354784e1c965c8000.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/e575e4b083d929d354784e1c965c8000.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/e575e4b083d929d354784e1c965c8000.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                </ul>
+                <ul style="display:none" class="clearfix">
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/f84384d5e3329ef93e7b9d383024455c.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/f84384d5e3329ef93e7b9d383024455c.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/f84384d5e3329ef93e7b9d383024455c.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/f84384d5e3329ef93e7b9d383024455c.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/f84384d5e3329ef93e7b9d383024455c.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/f84384d5e3329ef93e7b9d383024455c.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/f84384d5e3329ef93e7b9d383024455c.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/f84384d5e3329ef93e7b9d383024455c.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 买卖 -->
+    <div id="buy-sel" class="contain clearfix">
+        <div class="buy-sel-left pull-left clearfix">
+            <a href="">
+                <div>
+                    <h2>买商标</h2>
+                    <h3>我帮你选</h3>
+                </div>
+            </a>
+            <a href="">
+                <div>
+                    <h2>卖商标</h2>
+                    <h3>知产变现</h3>
+                </div>
+            </a>
+        </div>
+        <div class="buy-sel-right pull-right">
+            <ul class="clearfix">
+                <li class="buy-sel-right-li">
+                    <h2>卖家急售</h2>
+                    <h3>价格一定很实惠</h3>
+                </li>
+                <li class="buy-sel-right-li">
+                    <h2>即将续展</h2>
+                    <h3>续展期买标，更便宜</h3>
+                </li>
+                <li class="buy-sel-right-li">
+                    <h2>商品小于5项</h2>
+                    <h3>商品虽少，够用就好</h3>
+                </li>
+                <li>
+                    <h2>多类转让</h2>
+                    <h3>多类打包更划算</h3>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 专利 -->
+    <div id="patent" class="contain">
+        <div class="brand-title clearfix">
+            <h1>精选专利交易</h1>
+            <ul class="clearfix">
+                <li><a href="" class="brand-title-border">实用新型</a></li>
+                <li><a href="">发明</a></li>
+                <li><a href="">外观设计</a></li>
+                <li><a href="">纺织造纸</a></li>
+                <li><a href="">作业运输</a></li>
+            </ul>
+        </div>
+        <div class="clearfix" style="height:353px;">
+            <div class="brand-swiper">
+                <div class="swiper-container swiper-container-brand">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="images/36af208d3ecba671cfe0bbca4eccc4a4.jpg" alt=""/></div>
+                      <div class="swiper-slide"><img src="images/8101cc2705ba1e42bcf7ea079c01d172.jpg" alt=""/></div>
+                      <div class="swiper-slide"><img src="images/115de62f019557c5598e87909a1aa123.jpg" alt=""/></div>
+                  </div>
+                  <div class="pagination pagination-brand"></div>
+                </div>
+                <div class="brand-list" style="background-color:rgba(126,171,197,0.9)">
+                    <ul class="clearfix">
+                        <li>>&nbsp;<a href="">生活必需</a></li>
+                        <li>>&nbsp;<a href="">作业运输</a></li>
+                        <li>>&nbsp;<a href="">化学治金</a></li>
+                        <li>>&nbsp;<a href="">纺织造纸</a></li>
+                        <li>>&nbsp;<a href="">机械工程</a></li>
+                        <li>>&nbsp;<a href="">固定建筑</a></li>
+                        <li>>&nbsp;<a href="">物理</a></li>
+                        <li>>&nbsp;<a href="">电学</a></li>
+                        <li>>&nbsp;<a href="">外观设计</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="brand-img">
+                <ul class="clearfix">
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/61d2c5feaadc4b5889a322a75287278a.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/61d2c5feaadc4b5889a322a75287278a.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/61d2c5feaadc4b5889a322a75287278a.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/61d2c5feaadc4b5889a322a75287278a.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/61d2c5feaadc4b5889a322a75287278a.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/61d2c5feaadc4b5889a322a75287278a.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/61d2c5feaadc4b5889a322a75287278a.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/61d2c5feaadc4b5889a322a75287278a.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                </ul>
+                <ul style="display:none" class="clearfix">
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/8b4da71f6e7f837949c48be834cd53ce.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/8b4da71f6e7f837949c48be834cd53ce.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/8b4da71f6e7f837949c48be834cd53ce.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/8b4da71f6e7f837949c48be834cd53ce.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/8b4da71f6e7f837949c48be834cd53ce.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/8b4da71f6e7f837949c48be834cd53ce.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/8b4da71f6e7f837949c48be834cd53ce.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/8b4da71f6e7f837949c48be834cd53ce.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                </ul>
+                <ul style="display:none" class="clearfix">
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/377280e11d22e38087ab1f44dfd4e92f.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/377280e11d22e38087ab1f44dfd4e92f.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/377280e11d22e38087ab1f44dfd4e92f.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/377280e11d22e38087ab1f44dfd4e92f.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/377280e11d22e38087ab1f44dfd4e92f.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/377280e11d22e38087ab1f44dfd4e92f.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/377280e11d22e38087ab1f44dfd4e92f.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/377280e11d22e38087ab1f44dfd4e92f.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                </ul>
+                <ul style="display:none" class="clearfix">
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/987bac6c5c138f1b6840735f12bbda8a.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/987bac6c5c138f1b6840735f12bbda8a.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/987bac6c5c138f1b6840735f12bbda8a.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/987bac6c5c138f1b6840735f12bbda8a.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/987bac6c5c138f1b6840735f12bbda8a.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/987bac6c5c138f1b6840735f12bbda8a.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/987bac6c5c138f1b6840735f12bbda8a.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/987bac6c5c138f1b6840735f12bbda8a.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                </ul>
+                <ul style="display:none" class="clearfix">
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/e8370e95870a6ba4f4ef189494f7547b.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/e8370e95870a6ba4f4ef189494f7547b.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/e8370e95870a6ba4f4ef189494f7547b.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/e8370e95870a6ba4f4ef189494f7547b.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/e8370e95870a6ba4f4ef189494f7547b.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/e8370e95870a6ba4f4ef189494f7547b.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/e8370e95870a6ba4f4ef189494f7547b.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                    <li>
+                        <img src="images/idx01.gif" data-src="images/e8370e95870a6ba4f4ef189494f7547b.jpg" alt=""/>
+                        <p>颜芦&nbsp;&nbsp;化妆清洁</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 案例 -->
+    <div id="case" class="contain">
+        <div class="brand-title clearfix">
+            <h1>成功案例</h1>
+            <div class="case-check">查看更多</div>
+        </div>
+        <ul class="clearfix">
+            <li><a href=""><img src="images/e6e73a3945cfac39c1ebe73d88caae5c.jpg"/></a></li>
+            <li><a href=""><img src="images/26acd3d86ef325f5301787a0bfa940db.jpg"/></a></li>
+            <li><a href=""><img src="images/0481d6b1e7e290b57a481320da842f90.jpg"/></a></li>
+        </ul>
+    </div>
+    <!-- 新闻 -->
+    <div id="news" class="clearfix contain">
+        <div class="pull-left">
+            <div class="brand-title clearfix">
+                <h1>行业新闻</h1>
+                <div class="case-check">查看更多</div>
+            </div>
+            <div class="clearfix">
+                <img src="picture/hyxw.jpg" alt=""/>
+                <ul>
+                    <li class="clearfix">
+                        <a href="">小小商标撬动地方经济大板块</a><span>2017-09-14</span>
+                    </li>
+                    <li class="clearfix">
+                        <a href="">商标争夺战硝烟弥漫 困了累了喝哪国红牛</a><span>2017-09-14</span>
+                    </li>
+                    <li class="clearfix">
+                        <a href="">新百伦在华打赢商标侵权诉讼</a><span>2017-09-14</span>
+                    </li>
+                    <li class="clearfix">
+                        <a href="">柠檬微趣冲刺IPO“埋雷”：当家游戏未获</a><span>2017-09-14</span>
+                    </li>
+                    <li class="clearfix">
+                        <a href="">加多宝王老吉共享红罐包装</a><span>2017-09-14</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="pull-right">
+            <div class="brand-title clearfix">
+                <h1>转让回答</h1>
+                <div class="case-check">查看更多</div>
+            </div>
+            <div class="clearfix">
+                <img src="picture/zrhd.jpg" alt=""/>
+                <ul>
+                    <li class="clearfix">
+                        <a href="">第三类商标包括哪些 购买该类商标要注意</a><span>2017-09-14</span>
+                    </li>
+                    <li class="clearfix">
+                        <a href="">商标转让多久可以完成商标局备案</a><span>2017-09-14</span>
+                    </li>
+                    <li class="clearfix">
+                        <a href="">商标转让期间商标属于谁</a><span>2017-09-14</span>
+                    </li>
+                    <li class="clearfix">
+                        <a href="">自主商标转让的流程是怎样的</a><span>2017-09-14</span>
+                    </li>
+                    <li class="clearfix">
+                        <a href="">企业破产商标怎么办</a><span>2017-09-14</span>
+                    </li>
+                </ul>
+            </div>            
+        </div>
+    </div>
+    <ul id="law" class="clearfix contain">
+        <li>
+            <ol>
+                <li class="clearfix">
+                    <p>[<a href="">商业法律</a>] <a href="">鹰潭一KTV冒用“钱柜”商标被判</a></p>
+                    <span>2017-04-09</span>
+                </li>
+                <li class="clearfix">
+                    <p>[<a href="">商业法律</a>] <a href="">"商标挟持"之风不可长</a></p>
+                    <span>2017-04-09</span>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <ol>
+                <li class="clearfix">
+                    <p>[<a href="">商业法律</a>] <a href="">中国商标局的商标注册信息查询系统</a></p>
+                    <span>2017-04-09</span>
+                </li>
+                <li class="clearfix">
+                    <p>[<a href="">商业法律</a>] <a href="">适用商标法“不良影响”条款的几个</a></p>
+                    <span>2017-04-09</span>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <ol>
+                <li class="clearfix">
+                    <p>[<a href="">商业法律</a>] <a href="">两个“苏泊尔”什么关系</a></p>
+                    <span>2017-04-09</span>
+                </li>
+                <li class="clearfix">
+                    <p>[<a href="">商业法律</a>] <a href="">如何防止商标抢注，抢注了怎么办</a></p>
+                    <span>2017-04-09</span>
+                </li>
+            </ol>
+        </li>
+    </ul>
+    <!-- 工具 -->
+    <div id="tool" class="contain">
+        <div>
+            <h1>一只蝉知产工具</h1>
+            <h2>商标交易从业者必备工具箱</h2>
+        </div>
+        <ul class="clearfix">
+            <li>
+                <div></div>
+                <a href="">数据共享</a>
+                <p><i></i></p>
+                <span>发现行业变化和热点</span>
+            </li>
+            <li>
+                <div></div>
+                <a href="">商标查询</a>
+                <p><i></i></p>
+                <span>轻松查询商标动态</span>
+            </li>
+            <li>
+                <div></div>
+                <a href="">商标注册</a>
+                <p><i></i></p>
+                <span>资深团队 一对一服务</span>
+            </li>
+            <li>
+                <div></div>
+                <a href="">商标出售者平台</a>
+                <p><i></i></p>
+                <span>曝光量更大，成交更快</span>
+            </li>
+            <li>
+                <div></div>
+                <a href="">商标报价单工具</a>
+                <p><i></i></p>
+                <span>极速生成漂亮的报价单</span>
+            </li>
+            <li>
+                <div></div>
+                <a href="">商标安全监测工具</a>
+                <p><i></i></p>
+                <span>一键检测，10秒出结果</span>
+            </li>
+        </ul>
+    </div>
+    <!-- 选择商标 -->
+    <div id="choose">
+        <div class="contain">
+            <a href="">快速筛选出好标</a>
+            <a href="">联系我们-免费为你找</a>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div id="footer">
+        <ul class="contain clearfix">
+            <li class="clearfix">
+                <img src="images/mj-icon18.png" alt="" class="pull-left" />
+                <div class="pull-left">
+                    <h2>精准匹配</h2>
+                    <h3>强大筛选系统 - 3.5秒匹配</h3>
+                </div>
+                <div class="footer-h"></div>
+            </li>
+            <li class="clearfix">
+                <img src="images/mj-icon19.png" alt="" class="pull-left" />
+                <div class="pull-left">
+                    <h2>快速流程</h2>
+                    <h3>最快4小时 - 商标抱回家</h3>
+                </div>
+                <div class="footer-h"></div>
+            </li>
+            <li class="clearfix">
+                <img src="images/mj-icon20.png" alt="" class="pull-left" />
+                <div class="pull-left">
+                    <h2>拒绝损失</h2>
+                    <h3>担保交易 - 签订赔付协议</h3>
+                </div>
+                <div class="footer-h"></div>
+            </li>
+            <li class="clearfix">
+                <img src="images/mj-icon21.png" alt="" class="pull-left" />
+                <div class="pull-left">
+                    <h2>透明交易</h2>
+                    <h3>3方协议 - 全程公证</h3>
+                </div>
+                <div class="footer-h"></div>
+            </li>
+            <li class="clearfix">
+                <img src="images/mj-icontj.png" alt="" class="pull-left" />
+                <div class="pull-left">
+                    <h2>终身免费售后</h2>
+                    <h3>转让后 -永久免费安全监测</h3>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="foot">
+        <a href="" class="foot-txt">联系我们</a>
+        <a href="">|</a>
+        <a href="" class="foot-txt">关于一指禅</a>
+        <a href="">|</a>
+        <a href="" class="foot-txt">网络备案</a>
+        <a href="">|</a>
+        <a href="" class="foot-txt">成功案例</a>
+        <a href="">|</a>
+        <a href="" class="foot-txt">常见问题</a>
+    </div>
+    <p style="text-align:center;margin-bottom:20px;">ICP证：蜀ICP备15035613号-1 违法和不良信息举报电话: 028-110 Copyright © 2002 - 2016</p>
+    <!-- 底部定位 -->
+    <div id="bottom-position">
+        <div class="contain">
+            <select>
+                <option value="">请选择商标所属行业</option>
+                <option value="">服装/鞋帽/箱包</option>
+                <option value="">钟表/珠宝/饰品</option>
+                <option value="">婴童/玩具/健身/车</option>
+                <option value="">美妆/日用品</option>
+                <option value="">食品/烟/酒/茶</option>
+                <option value="">药/保健品</option>
+                <option value="">家用电器/家居</option>
+                <option value="">电子产品/软件开发</option>
+                <option value="">广告/推销/金融</option>
+                <option value="">其它行业</option>
+            </select>
+            <input type="text" placeholder="请输入手机号"/>
+            <button>免费推荐</button>
+            <a href=""></a>
+            <div class="bottom-position-close">×</div>
+        </div>
+    </div>
+    <div id="bottom-position-link">
+        <img src="picture/fdkf-ss.png" alt=""/>
+    </div>
+    <!-- 左侧定位 -->
+    <div id="left-position">
+        <ul>
+            <li date-id="list"><i class="iconfont icon-fenlei"></i><span>商标分类</span></li>
+            <li date-id="brand"><i class="iconfont icon-R"></i><span>商标交易</span></li>
+            <li date-id="patent"><i class="iconfont icon-zhuanli"></i><span>专利交易</span></li>
+            <li date-id="case"><i class="iconfont icon-anli"></i><span>成功案例</span></li>
+            <li date-id="tool"><i class="iconfont icon-toolsbar"></i><span>知产工具</span></li>
+        </ul>
+    </div>
+    <!-- 右侧定位 -->
+    <div id="right-position">
+        <div class="right-position-up">
+            <ul>
+                <li>
+                    <i class="iconfont icon-iconfontsvg14"></i>
+                    <div class="right-position-move"><span>我的收藏</span><p></p></div>
+                </li>
+                <li>
+                    <i class="iconfont icon-publishgoods_fill"></i><br/>
+                    买
+                    <div class="right-position-move"><span>购买商标、专利</span><p></p></div>
+                </li>
+                <li>
+                    <i class="iconfont icon-iconfontmoney"></i><br/>
+                    卖
+                    <div class="right-position-move"><span>出售商标、专利</span><p></p></div>
+                </li>
+                <li>
+                    <i class="iconfont icon-iconorderdetailscellphone"></i>
+                    <div class="right-position-up-div right-position-move">
+                        <h2>4006-762-003</h2>
+                        <h3>电话免费开通在线管理平台<br/>账户(国内唯一)</h3>
+                        <input type="text" placeholder="输入电话号码"/>
+                        <button>免费咨询</button>
+                        <p></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="right-position-down">
+            <ul>
+                <li>
+                    <a href="http://wpa.qq.com/msgrd?v=3&uin=603432176&site=qq&menu=yes" target="_blank"><i class="iconfont icon-qq"></i></a>
+                    <div class="right-position-move"><span>QQ客服</span><p></p></div>
+                </li>
+                <li>
+                    <i class="iconfont icon-erweima"></i><br/>
+                    <div class="right-position-down-div">
+                        <img src="picture/yzc-wx.jpg" alt=""/>
+                        <span>专注知识产权流转<br/>欢迎关注微信，随时获取资讯</span>
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <i class="iconfont icon-yijianfankui"></i><br/>
+                    <div class="right-position-move"><span>意见反馈</span><p></p></div>
+                </li>
+                <li class="back-top">
+                    <i class="iconfont icon-huidingbu"></i>
+                    <div class="right-position-move"><span>返回顶部</span><p></p></div>
+                </li>
+            </ul> 
+        </div>
+    </div>
+    <!-- 登录注册 -->
+    <div id="login-register">
+        <i class="iconfont icon-close"></i>
+        <ul class='clearfix'>
+            <li class="header-bar-login">账号登录</li>
+            <li class="header-bar-register">快捷登录</li>
+        </ul>
+        <input type="text" id="register-tel" placeholder="请输入手机号"/>
+        <input type="password" id="register-pwd" placeholder="请输入密码（6-20位数字，字母或符号）"/>
+        <div class="clearfix">
+            <input type="password" class="pull-left" placeholder="请输入手机验证码"/>
+            <div class="pull-right">获取验证码</div>
+        </div>
+        <p>
+            <label><input type="checkbox" checked>自动登录</label>
+            <label><input type="checkbox" checked>记住手机号码</label>
+        </p>
+        <button>登录</button>
+    </div>
+    <!-- 遮罩层 -->
+    <div id="shadow"></div>
+    </body>
+    <script src="swiper/swiper-3.4.2.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script>
+        $(function(){
+            var mySwiper = new Swiper('.swiper-container-lunbo',{
+                loop: true,
+                pagination : '.pagination-lunbo',
+                autoplay: 2500,
+                autoplayDisableOnInteraction: false,
+                paginationClickable: true,
+                effect: 'fade'
+                //其他设置
+            });
+
+            var mySwiper = new Swiper('.swiper-container-brand',{
+                loop: true,
+                pagination : '.pagination-brand',
+                autoplay: 2500,
+                autoplayDisableOnInteraction: false,
+                paginationClickable: true,
+                effect: 'fade'
+                //其他设置
+            });
+
+            var mySwiper = new Swiper('.swiper-container-patent',{
+                loop: true,
+                pagination : '.pagination-patent',
+                autoplay: 2500,
+                autoplayDisableOnInteraction: false,
+                paginationClickable: true,
+                effect: 'fade'
+                //其他设置
+            });
+        })
+    </script>
+    <script src="js/index.js"></script>
+</html>
